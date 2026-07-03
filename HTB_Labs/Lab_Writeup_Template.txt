@@ -1,0 +1,58 @@
+# [Machine Name] - HackTheBox Writeup
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+![OS](https://img.shields.io/badge/OS-Linux-blue)
+
+## Overview
+- **Machine:** [Name]
+- **OS:** Linux / Windows
+- **Difficulty:** Easy / Medium / Hard
+- **IP:** 10.10.10.xxx
+- **Date Completed:** YYYY-MM-DD
+
+Brief 2-3 sentence summary of the box and the overall attack path (recon → foothold → privesc).
+
+## Skills Learned
+- Skill or technique 1
+- Skill or technique 2
+- Skill or technique 3
+
+## Reconnaissance
+
+### Nmap Scan
+
+nmap -sC -sV -oN nmap/initial 10.10.10.xxx
+
+Paste key output and briefly note what stands out (open ports, services, versions).
+
+### Enumeration
+Document each service you dug into (web, SMB, FTP, etc.) and what you found — directories, usernames, banners, misconfigurations.
+
+## Foothold
+
+Explain the vulnerability you exploited to get initial access. Include:
+- The vulnerability type (e.g., LFI, SQLi, default creds)
+- The exact commands/payloads used
+- A screenshot or terminal output showing the shell
+
+[command or payload here]
+
+## Privilege Escalation
+
+### Enumeration for PrivEsc
+What you ran to check for privesc paths (linpeas, sudo -l, SUID binaries, etc.)
+
+### Exploitation
+The specific misconfiguration or vulnerability that got you root/system, plus commands used.
+
+[commands here]
+
+## Flags
+- **User Flag:** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- **Root Flag:** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+## Lessons Learned / Notes
+Any personal takeaways, things you'd do differently, or concepts worth revisiting.
+
+## References
+- [Link to any CVE, blog post, or tool used]
